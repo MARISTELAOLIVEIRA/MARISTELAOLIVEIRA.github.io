@@ -41,7 +41,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 | Laboratório de Inovação III | `lab-inovacao-3` | `/lab-inovacao-3/` (publicado) |
 | Lógica de Programação com Python | `Python-Logica` | `/Python-Logica/` (publicado) |
 | Segurança em Nuvem | `seguranca-nuvem` | `/seguranca-nuvem/` (publicado) |
-| Administração de Recursos Computacionais | `arc` | `/arc/` |
+| Administração de Recursos Computacionais | `adm-recursos` | `/adm-recursos/` (publicado) |
 | Preparatório AWS Cloud Foundations | `prep-aws` | `/prep-aws/` |
 | Preparatório CCNA | `prep-ccna` | `/prep-ccna/` |
 | Preparatório AZ-900 | `prep-az900` | `/prep-az900/` |
@@ -57,7 +57,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 - HTML, CSS e JavaScript puros. Sem framework e sem etapa de build.
 - Fontes do Google Fonts: **Mona Sans** (títulos, a fonte do GitHub), **Atkinson Hyperlegible Next** (texto, feita para facilitar a leitura) e **Atkinson Hyperlegible Mono** (rótulos, código, designadores).
 - Imagens em `assets/img/` no formato WebP.
-- Banco de dados (quando necessário): **um único projeto Supabase, plano gratuito**, compartilhado por todos os sites. Tabelas com prefixo da disciplina (ex.: `js_quiz_respostas`, `arc_presenca`) ou schemas separados. **RLS obrigatório em todas as tabelas**, porque a chave pública fica visível no código. O portal em si é estático.
+- Banco de dados (quando necessário): **um único projeto Supabase, plano gratuito**, compartilhado por todos os sites. Tabelas com prefixo da disciplina (ex.: `js_quiz_respostas`, `adm_presenca`) ou schemas separados. **RLS obrigatório em todas as tabelas**, porque a chave pública fica visível no código. O portal em si é estático.
 
 ## Visual comum: uma cópia em cada site
 
