@@ -19,7 +19,7 @@ index.html            o portal (só o estilo e o script exclusivos dele ficam aq
 assets/
   css/estilo.css      visual comum a todos os sites (cores dos dois temas, fontes, barra, janelas, cards…)
   js/placa.js         tema, A+, pausa, menu do celular, aparecer ao rolar; comum a todos os sites
-  img/                imagens em WebP (estrela.webp, coracao.webp, palestra.webp)
+  img/                imagens em WebP (estrela.webp, coracao.webp, palestra.webp, logo-faculdade.webp)
   img/tec/            logos das tecnologias em SVG (Devicon, licença MIT; Cisco, XAMPP e Espressif do Simple Icons, CC0)
 README.md             este arquivo
 CLAUDE.md             instruções para o Claude Code (fica só no computador, não vai para o GitHub)
