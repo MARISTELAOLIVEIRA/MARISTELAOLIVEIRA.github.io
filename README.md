@@ -34,10 +34,11 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 | Site | Repositório | Endereço |
 |---|---|---|
 | Portal (este) | `MARISTELAOLIVEIRA.github.io` | `/` |
-| Programação Web em JavaScript | `prog-web-js` | `/prog-web-js/` |
-| Linguagem de Programação para Web II – PHP | `prog-web-php` | `/prog-web-php/` |
+| Programação Web em JavaScript | `prog-web-js` | `/prog-web-js/` (publicado) |
+| Linguagem de Programação para Web II – PHP | `prog-web-php` | `/prog-web-php/` (publicado) |
 | Laboratório de Inovação IV | `lab-inovacao-4` | `/lab-inovacao-4/` |
-| Laboratórios de Inovação II e III | `lab-inovacao-2-3` | `/lab-inovacao-2-3/` |
+| Laboratório de Inovação II | `lab-inovacao-2` | `/lab-inovacao-2/` |
+| Laboratório de Inovação III | `lab-inovacao-3` | `/lab-inovacao-3/` (publicado) |
 | Lógica de Programação com Python | `logica-python` | `/logica-python/` |
 | Segurança em Nuvem | `seguranca-nuvem` | `/seguranca-nuvem/` |
 | Administração de Recursos Computacionais | `arc` | `/arc/` |
