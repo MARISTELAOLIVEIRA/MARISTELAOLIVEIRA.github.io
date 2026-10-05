@@ -44,7 +44,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 | Administração de Recursos Computacionais | `adm-recursos` | `/adm-recursos/` (publicado) |
 | Preparatório AWS Cloud Foundations | `Preparatorio-AWS` | `/Preparatorio-AWS/` (publicado) |
 | Preparatório CCNA | `Preparatorio-CCNAV7` | `/Preparatorio-CCNAV7/` (publicado) |
-| Preparatório AZ-900 | `prep-az900` | `/prep-az900/` |
+| Preparatório AZ-900 | `Preparatorio-AZ900` | `/Preparatorio-AZ900/` (publicado) |
 
 - Os links do portal para as disciplinas usam caminhos absolutos (`/prog-web-js/`).
 - O repositório `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA` (sem `.github.io`) é outra coisa: é o README da página de perfil do GitHub, não um site.
