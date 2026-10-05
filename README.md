@@ -170,6 +170,7 @@ No tema claro, o dourado e a menta são mais escuros para manter o contraste do 
 - **Designadores de componente** em fonte mono dourada marcam as seções (U1, U2, W1, IC1, J1…), como a serigrafia de uma placa. A 404 usa F1, o fusível.
 - **Placa de circuito no fundo:** trilhas, pads e chips no estilo do coração e da estrela, desenhados em SVG dentro do `estilo.css`, bem suaves (7% no escuro, 13% no claro). A cor segue o tema. As seções `.alt` são levemente translúcidas para a placa aparecer por trás.
 - **Logos das tecnologias:** sempre em azulejos claros (`.tec`), nos dois temas, para logos escuros como GitHub e AWS continuarem visíveis. Para um logo novo, baixe o SVG do Devicon para `assets/img/tec/`.
+- **Chuva de 0 e 1 e neon verde (sites das disciplinas):** `assets/js/matrix.js` desenha a chuva num `<canvas class="chuva-matrix">` na abertura e no topo das aulas; `assets/css/neon.css` dá o brilho verde (`.neon` numa palavra do título, `.neon-halo` no logo flutuante). Veio do PyQuiz, a Stela adorou. Para com o botão de pausa. Arquivos comuns às disciplinas, copiados em cada site.
 - **Cantos arredondados:** 22px nos cards grandes, 12px nas janelas e cards pequenos, botões em pílula.
 - **Animações:** na abertura (textos em cascata, trilhas que se desenham até a estrela e pulsos de luz contínuos nelas), ao rolar (seções aparecem suavemente) e ao passar o mouse (luz nos cards). **Todas param com o botão "Pausar animações"** e com o "reduzir movimento" do sistema.
 
