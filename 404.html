@@ -11,13 +11,19 @@
      local na pasta do portal (abrir o arquivo direto não carrega o estilo). -->
 <script>
 // Repositórios renomeados: o GitHub não redireciona o endereço do site sozinho.
-// Este mapa leva os links antigos (já divulgados aos alunos) para o endereço novo,
-// mantendo o resto do caminho. Para incluir outro: '/nome-antigo/':'/nome-novo/' (em minúsculas).
+// Este mapa leva os links antigos (já divulgados aos alunos) para o endereço novo.
+//   raiz:  para onde vai o endereço antigo sem nada depois (a página inicial da disciplina)
+//   resto: onde ficam agora as páginas de dentro (o curso foi para curso/), mantendo o caminho
+// Para incluir outro, copie uma linha (nome antigo em minúsculas, com / no fim).
 (function(){
-  var mapa={'/php-conceitos-iniciais/':'/prog-web-php/'};
-  var c=location.pathname, l=c.toLowerCase();
+  var mapa={
+    '/php-conceitos-iniciais/': {raiz:'/prog-web-php/', resto:'/prog-web-php/curso/'},
+    '/curso-javascript/':       {raiz:'/prog-web-js/',  resto:'/prog-web-js/curso/'}
+  };
+  var c=location.pathname, l=c.toLowerCase(), fim=location.search+location.hash;
   for(var a in mapa){
-    if(l===a.slice(0,-1)||l.indexOf(a)===0){location.replace(mapa[a]+c.slice(a.length)+location.search+location.hash); return}
+    if(l===a||l===a.slice(0,-1)){location.replace(mapa[a].raiz+fim); return}
+    if(l.indexOf(a)===0){location.replace(mapa[a].resto+c.slice(a.length)+fim); return}
   }
 })();
 </script>
