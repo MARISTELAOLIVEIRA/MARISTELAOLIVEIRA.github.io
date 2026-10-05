@@ -42,8 +42,8 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 | Lógica de Programação com Python | `Python-Logica` | `/Python-Logica/` (publicado) |
 | Segurança em Nuvem | `seguranca-nuvem` | `/seguranca-nuvem/` (publicado) |
 | Administração de Recursos Computacionais | `adm-recursos` | `/adm-recursos/` (publicado) |
-| Preparatório AWS Cloud Foundations | `prep-aws` | `/prep-aws/` |
-| Preparatório CCNA | `prep-ccna` | `/prep-ccna/` |
+| Preparatório AWS Cloud Foundations | `Preparatorio-AWS` | `/Preparatorio-AWS/` (publicado) |
+| Preparatório CCNA | `Preparatorio-CCNAV7` | `/Preparatorio-CCNAV7/` (publicado) |
 | Preparatório AZ-900 | `prep-az900` | `/prep-az900/` |
 
 - Os links do portal para as disciplinas usam caminhos absolutos (`/prog-web-js/`).
