@@ -61,7 +61,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 
 `assets/css/estilo.css` e `assets/js/placa.js` são iguais em todos os sites. Cada repositório tem a **sua própria cópia**; nenhum site depende de outro para funcionar.
 
-1. Os dois arquivos têm uma linha `versão N · data` no começo (hoje: **versão 2**).
+1. Os dois arquivos têm uma linha `versão N · data` no começo (hoje: **versão 3**).
 2. Mudou o visual? Altere aqui, aumente a versão dos dois e copie os dois arquivos para os outros sites.
 3. Para saber se um site está desatualizado, compare a versão do arquivo dele com a deste.
 
@@ -164,6 +164,7 @@ No tema claro, o dourado e a menta são mais escuros para manter o contraste do 
 
 - **Logos:** `estrela.webp` (marca principal, por causa do nome Stela) e `coracao.webp` (coração de placa com "TI", usado no "sobre" e no rodapé).
 - **Designadores de componente** em fonte mono dourada marcam as seções (U1, U2, W1, IC1, J1…), como a serigrafia de uma placa. A 404 usa F1, o fusível.
+- **Placa de circuito no fundo:** trilhas, pads e chips no estilo do coração e da estrela, desenhados em SVG dentro do `estilo.css`, bem suaves (7% no escuro, 13% no claro). A cor segue o tema. As seções `.alt` são levemente translúcidas para a placa aparecer por trás.
 - **Cantos arredondados:** 22px nos cards grandes, 12px nas janelas e cards pequenos, botões em pílula.
 - **Animações:** na abertura (textos em cascata, trilhas que se desenham até a estrela e pulsos de luz contínuos nelas), ao rolar (seções aparecem suavemente) e ao passar o mouse (luz nos cards). **Todas param com o botão "Pausar animações"** e com o "reduzir movimento" do sistema.
 
