@@ -20,6 +20,7 @@ assets/
   css/estilo.css      visual comum a todos os sites (cores dos dois temas, fontes, barra, janelas, cards…)
   js/placa.js         tema, A+, pausa, menu do celular, aparecer ao rolar; comum a todos os sites
   img/                imagens em WebP (estrela.webp, coracao.webp, palestra.webp)
+  img/tec/            logos das tecnologias em SVG (Devicon, licença MIT; Cisco, XAMPP e Espressif do Simple Icons, CC0)
 README.md             este arquivo
 CLAUDE.md             instruções para o Claude Code (fica só no computador, não vai para o GitHub)
 .gitignore            o que o git ignora: .DS_Store, CLAUDE.md, .claude/
@@ -61,7 +62,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 
 `assets/css/estilo.css` e `assets/js/placa.js` são iguais em todos os sites. Cada repositório tem a **sua própria cópia**; nenhum site depende de outro para funcionar.
 
-1. Os dois arquivos têm uma linha `versão N · data` no começo (hoje: **versão 3**).
+1. Os dois arquivos têm uma linha `versão N · data` no começo (hoje: **versão 4**).
 2. Mudou o visual? Altere aqui, aumente a versão dos dois e copie os dois arquivos para os outros sites.
 3. Para saber se um site está desatualizado, compare a versão do arquivo dele com a deste.
 
@@ -99,6 +100,8 @@ As preferências ficam salvas no navegador (`placa:tema`, `placa:fonte` e `placa
 | `.repos`, `.repo`, `.repo-nome`, `.repo-pe`, `.ling` (`--cor`) | cards no estilo repositório do GitHub (disciplinas, aulas, atividades) |
 | `.repo-topo`, `.ramo`, `.log`, `.commit` (`.andamento`), `.hash` | histórico de commits: formação, cronograma, prazos |
 | `.etiqueta` (`.verde`, `.ouro`) | etiqueta arredondada de estado |
+| `.tec` (tamanho em `--t`), `.tecs` | logo de tecnologia num azulejo claro, como os ícones do macOS; `.tecs` é uma fileira deles |
+| `.doca`, `.doca-trilho` | faixa de logos deslizando, como o Dock do Mac (a lista vai duas vezes; a segunda com `aria-hidden`) |
 | `.botao` (`.contorno`) | botão arredondado dourado (cheio ou só contorno) |
 | `.citacao`, `.pendente` | citação em destaque; texto a completar |
 
@@ -165,6 +168,7 @@ No tema claro, o dourado e a menta são mais escuros para manter o contraste do 
 - **Logos:** `estrela.webp` (marca principal, por causa do nome Stela) e `coracao.webp` (coração de placa com "TI", usado no "sobre" e no rodapé).
 - **Designadores de componente** em fonte mono dourada marcam as seções (U1, U2, W1, IC1, J1…), como a serigrafia de uma placa. A 404 usa F1, o fusível.
 - **Placa de circuito no fundo:** trilhas, pads e chips no estilo do coração e da estrela, desenhados em SVG dentro do `estilo.css`, bem suaves (7% no escuro, 13% no claro). A cor segue o tema. As seções `.alt` são levemente translúcidas para a placa aparecer por trás.
+- **Logos das tecnologias:** sempre em azulejos claros (`.tec`), nos dois temas, para logos escuros como GitHub e AWS continuarem visíveis. Para um logo novo, baixe o SVG do Devicon para `assets/img/tec/`.
 - **Cantos arredondados:** 22px nos cards grandes, 12px nas janelas e cards pequenos, botões em pílula.
 - **Animações:** na abertura (textos em cascata, trilhas que se desenham até a estrela e pulsos de luz contínuos nelas), ao rolar (seções aparecem suavemente) e ao passar o mouse (luz nos cards). **Todas param com o botão "Pausar animações"** e com o "reduzir movimento" do sistema.
 
@@ -221,5 +225,6 @@ Estrutura:
 - [x] Visual novo (github.com + Apple + placa), com tema claro e escuro
 - [ ] Iniciar o git e fazer o primeiro commit
 - [x] Criar o modelo base das disciplinas a partir deste visual (primeiro: `prog-web-php`, com `assets/css/disciplina.css`)
-- [ ] Modelo de disciplina: mais animações (a Stela achou a página da Web II parada demais)
+- [ ] Modelo de disciplina: mais animações (a Stela achou a página da Web II parada demais); já tem o logo flutuando na abertura
+- [x] Logos das tecnologias no portal (faixa deslizante, skills, cards) e nas disciplinas
 - [ ] Publicar no GitHub (repositório `MARISTELAOLIVEIRA.github.io`, que já existe e já tem o GitHub Pages ativo)
