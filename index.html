@@ -98,6 +98,14 @@
 /* contato */
 .contatos{display:grid; grid-template-columns:repeat(auto-fill,minmax(15rem,1fr)); gap:1rem}
 .contatos .cartao span:last-child{overflow-wrap:anywhere}
+
+/* cursos e turmas: título com o logo da faculdade ao lado */
+#cursos .cab{max-width:none}
+.cab-faculdade{display:flex; align-items:center; gap:1rem 1.6rem; flex-wrap:wrap}
+.logo-faculdade{display:block; background:#fff; border-radius:var(--raio-p); padding:.55rem .9rem; box-shadow:0 1px 0 rgba(255,255,255,.7) inset, 0 0 0 1px rgba(0,0,0,.07); transition:transform .2s var(--suave)}
+.logo-faculdade:hover{transform:translateY(-2px)}
+.logo-faculdade img{display:block; width:clamp(11rem,26vw,15rem); height:auto}
+.cab-faculdade + p{margin-top:0}
 </style>
 </head>
 <body>
@@ -212,10 +220,16 @@
 
   <section class="bloco alt" id="cursos">
     <div class="envolve">
-      <div class="cab" data-revela><span class="olho">J1 · conectores</span><h2>Cursos e turmas</h2><p>Cada disciplina tem o seu próprio site, com aulas, atividades e materiais. Os sites estão sendo reconstruídos com este visual.</p></div>
+      <div class="cab" data-revela><span class="olho">J1 · conectores</span>
+        <div class="cab-faculdade">
+          <h2>Cursos e turmas</h2>
+          <!-- logo num azulejo claro (como os logos de tecnologia), para aparecer nos dois temas -->
+          <a class="logo-faculdade" href="https://www.df.senac.br/" title="Site da Faculdade de Tecnologia e Inovação Senac-DF"><img src="assets/img/logo-faculdade.webp" alt="Faculdade de Tecnologia e Inovação Senac-DF" width="777" height="200"></a>
+        </div>
+        <p>Cada disciplina tem o seu próprio site, com aulas, atividades e materiais. Os sites estão sendo reconstruídos com este visual.</p></div>
 
       <div class="grupo">
-        <h3 data-revela>Preparatórios de certificação <span class="etiqueta">abertos ao público</span></h3>
+        <h3 data-revela>Preparatórios de certificação <a class="etiqueta ouro" href="https://www.df.senac.br/cursos/?tipo=extensao">matricule-se →</a></h3>
         <div class="repos">
           <a class="repo luz" href="/prep-aws/" data-revela><span class="repo-nome"><svg viewBox="0 0 16 16" aria-hidden="true"><use href="#ic-repo"/></svg>prep-aws</span><h4>AWS Cloud Foundations</h4><p>Encontros aos sábados, alternados.</p><span class="repo-pe"><span class="ling"><span class="tec" style="--t:1.45rem"><img src="assets/img/tec/aws.svg" alt="" width="20" height="20"></span>AWS</span><span class="etiqueta verde">turma em andamento</span></span></a>
           <a class="repo luz" href="/prep-ccna/" data-revela style="--i:1"><span class="repo-nome"><svg viewBox="0 0 16 16" aria-hidden="true"><use href="#ic-repo"/></svg>prep-ccna</span><h4>CCNA</h4><p>Encontros aos sábados, alternados.</p><span class="repo-pe"><span class="ling"><span class="tec" style="--t:1.45rem"><img src="assets/img/tec/cisco.svg" alt="" width="20" height="20"></span>Redes</span><span class="etiqueta verde">turma em andamento</span></span></a>
