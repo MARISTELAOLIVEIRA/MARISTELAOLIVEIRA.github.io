@@ -9,6 +9,18 @@
      inclusive dentro de subpastas (ex.: /prog-web-js/aula-99). Por isso os caminhos
      começam com "/": relativos quebrariam. Para testar no computador, use um servidor
      local na pasta do portal (abrir o arquivo direto não carrega o estilo). -->
+<script>
+// Repositórios renomeados: o GitHub não redireciona o endereço do site sozinho.
+// Este mapa leva os links antigos (já divulgados aos alunos) para o endereço novo,
+// mantendo o resto do caminho. Para incluir outro: '/nome-antigo/':'/nome-novo/' (em minúsculas).
+(function(){
+  var mapa={'/php-conceitos-iniciais/':'/prog-web-php/'};
+  var c=location.pathname, l=c.toLowerCase();
+  for(var a in mapa){
+    if(l===a.slice(0,-1)||l.indexOf(a)===0){location.replace(mapa[a]+c.slice(a.length)+location.search+location.hash); return}
+  }
+})();
+</script>
 <link rel="icon" href="/assets/img/estrela.webp">
 <script src="/assets/js/placa.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
