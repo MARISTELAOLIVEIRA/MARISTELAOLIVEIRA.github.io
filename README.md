@@ -28,11 +28,11 @@ CLAUDE.md             instruções para o Claude Code (fica só no computador, n
 
 ## Estrutura no GitHub Pages
 
-Este repositório é o site principal (`seuusuario.github.io`). Cada disciplina fica em um repositório próprio e vira uma subpasta do mesmo endereço:
+Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.github.io`, publicado em **https://maristelaoliveira.github.io**. Cada disciplina fica em um repositório próprio da mesma conta e vira uma subpasta do mesmo endereço:
 
 | Site | Repositório | Endereço |
 |---|---|---|
-| Portal (este) | `seuusuario.github.io` | `/` |
+| Portal (este) | `MARISTELAOLIVEIRA.github.io` | `/` |
 | Programação Web em JavaScript | `prog-web-js` | `/prog-web-js/` |
 | Linguagem de Programação para Web II – PHP | `prog-web-php` | `/prog-web-php/` |
 | Laboratório de Inovação IV | `lab-inovacao-4` | `/lab-inovacao-4/` |
@@ -45,6 +45,7 @@ Este repositório é o site principal (`seuusuario.github.io`). Cada disciplina 
 | Preparatório AZ-900 | `prep-az900` | `/prep-az900/` |
 
 - Os links do portal para as disciplinas usam caminhos absolutos (`/prog-web-js/`).
+- O repositório `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA` (sem `.github.io`) é outra coisa: é o README da página de perfil do GitHub, não um site.
 - **Não renomeie repositórios:** o nome faz parte dos links divulgados aos alunos.
 - Enquanto o repositório de uma disciplina não existir, o link dela mostra a página 404 do portal.
 - Os repositórios precisam ser **públicos** para o GitHub Pages gratuito. Tudo o que está neles, inclusive este README, fica visível para qualquer pessoa.
@@ -219,4 +220,4 @@ Estrutura:
 - [x] Visual novo (github.com + Apple + placa), com tema claro e escuro
 - [ ] Iniciar o git e fazer o primeiro commit
 - [ ] Criar o modelo base das disciplinas a partir deste visual
-- [ ] Publicar no GitHub (definir o usuário e trocar `seuusuario` nesta página)
+- [ ] Publicar no GitHub (repositório `MARISTELAOLIVEIRA.github.io`, que já existe e já tem o GitHub Pages ativo)
