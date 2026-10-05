@@ -39,8 +39,8 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 | Laboratório de Inovação IV | `lab-inovacao-4` | `/lab-inovacao-4/` |
 | Laboratório de Inovação II | `lab-inovacao-2` | `/lab-inovacao-2/` |
 | Laboratório de Inovação III | `lab-inovacao-3` | `/lab-inovacao-3/` (publicado) |
-| Lógica de Programação com Python | `logica-python` | `/logica-python/` |
-| Segurança em Nuvem | `seguranca-nuvem` | `/seguranca-nuvem/` |
+| Lógica de Programação com Python | `Python-Logica` | `/Python-Logica/` (publicado) |
+| Segurança em Nuvem | `seguranca-nuvem` | `/seguranca-nuvem/` (publicado) |
 | Administração de Recursos Computacionais | `arc` | `/arc/` |
 | Preparatório AWS Cloud Foundations | `prep-aws` | `/prep-aws/` |
 | Preparatório CCNA | `prep-ccna` | `/prep-ccna/` |
