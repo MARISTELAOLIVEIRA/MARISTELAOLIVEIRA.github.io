@@ -219,5 +219,6 @@ Estrutura:
 - [x] Criar `.gitignore` (ignorar `.DS_Store`) e `.nojekyll` (o GitHub não transforma `.md` em página)
 - [x] Visual novo (github.com + Apple + placa), com tema claro e escuro
 - [ ] Iniciar o git e fazer o primeiro commit
-- [ ] Criar o modelo base das disciplinas a partir deste visual
+- [x] Criar o modelo base das disciplinas a partir deste visual (primeiro: `prog-web-php`, com `assets/css/disciplina.css`)
+- [ ] Modelo de disciplina: mais animações (a Stela achou a página da Web II parada demais)
 - [ ] Publicar no GitHub (repositório `MARISTELAOLIVEIRA.github.io`, que já existe e já tem o GitHub Pages ativo)
