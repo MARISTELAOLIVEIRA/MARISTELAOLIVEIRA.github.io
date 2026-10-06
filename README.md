@@ -63,7 +63,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 
 `assets/css/estilo.css` e `assets/js/placa.js` são iguais em todos os sites. Cada repositório tem a **sua própria cópia**; nenhum site depende de outro para funcionar.
 
-1. Os dois arquivos têm uma linha `versão N · data` no começo (hoje: **versão 4**).
+1. Os dois arquivos têm uma linha `versão N · data` no começo (hoje: **versão 5**).
 2. Mudou o visual? Altere aqui, aumente a versão dos dois e copie os dois arquivos para os outros sites.
 3. Para saber se um site está desatualizado, compare a versão do arquivo dele com a deste.
 
