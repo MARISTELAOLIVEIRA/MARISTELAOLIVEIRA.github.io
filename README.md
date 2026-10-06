@@ -63,7 +63,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 
 `assets/css/estilo.css` e `assets/js/placa.js` são iguais em todos os sites. Cada repositório tem a **sua própria cópia**; nenhum site depende de outro para funcionar.
 
-1. Os dois arquivos têm uma linha `versão N · data` no começo (hoje: **versão 5**).
+1. Os dois arquivos têm uma linha `versão N · data` no começo (hoje: **versão 6**).
 2. Mudou o visual? Altere aqui, aumente a versão dos dois e copie os dois arquivos para os outros sites.
 3. Para saber se um site está desatualizado, compare a versão do arquivo dele com a deste.
 
@@ -111,7 +111,10 @@ As preferências ficam salvas no navegador (`placa:tema`, `placa:fonte` e `placa
 ```html
 <header class="barra">
   <div class="envolve">
-    <a class="marca" href="/"><img src="assets/img/estrela.webp" alt="" width="26" height="24">Stela</a>
+    <div class="marcas">
+      <!-- nos sites de disciplina, à esquerda fica só a disciplina (o portal tem a estrela aqui) -->
+      <a class="marca-disc" href="./" title="Página inicial da disciplina">JS</a>
+    </div>
     <button type="button" class="btn-menu" id="btn-menu" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav class="nav" id="menu" aria-label="Seções">
       <!-- links do site -->
@@ -127,6 +130,11 @@ As preferências ficam salvas no navegador (`placa:tema`, `placa:fonte` e `placa
         <svg class="tocar" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>
         <span class="rotulo">Pausar animações</span>
       </button>
+      <!-- o link "Stela" (portal) fica sempre à direita, depois dos botões (desde a versão 6) -->
+      <a class="marca" href="/" title="Portal da Stela">
+        <img src="assets/img/estrela.webp" alt="" width="26" height="24">
+        <span class="marca-texto">Stela</span>
+      </a>
     </div>
   </div>
 </header>
