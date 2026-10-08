@@ -56,6 +56,9 @@
 .f-rotulo{fill:var(--ouro); font-family:var(--f-mono); font-size:12px}
 @keyframes faisca{0%,100%{opacity:1}8%{opacity:.2}16%{opacity:1}24%{opacity:.4}}
 .acoes{display:flex; flex-wrap:wrap; justify-content:center; gap:.7rem; margin-top:2.4rem}
+/* linha laranja e azul do Senac embaixo da barra (a assinatura da Faculdade; 07/10/2026) */
+.barra::after{content:""; position:absolute; inset:auto 0 -1px; height:2px; background:linear-gradient(90deg,#f39a1e,#3b6fd4); pointer-events:none}
+[data-tema="claro"] .barra::after{background:linear-gradient(90deg,#f39a1e,#082c75)}
 </style>
 </head>
 <body>
