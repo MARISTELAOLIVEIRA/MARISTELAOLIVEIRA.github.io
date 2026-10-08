@@ -106,6 +106,9 @@
 .logo-faculdade:hover{transform:translateY(-2px)}
 .logo-faculdade img{display:block; width:clamp(11rem,26vw,15rem); height:auto}
 .cab-faculdade + p{margin-top:0}
+/* linha laranja e azul do Senac embaixo da barra (a assinatura da Faculdade; 07/10/2026) */
+.barra::after{content:""; position:absolute; inset:auto 0 -1px; height:2px; background:linear-gradient(90deg,#f39a1e,#3b6fd4); pointer-events:none}
+[data-tema="claro"] .barra::after{background:linear-gradient(90deg,#f39a1e,#082c75)}
 </style>
 </head>
 <body>
