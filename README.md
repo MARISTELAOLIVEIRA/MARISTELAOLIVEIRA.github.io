@@ -47,6 +47,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 | Preparatório CCNA | `Preparatorio-CCNAV7` | `/Preparatorio-CCNAV7/` (publicado) |
 | Preparatório AZ-900 | `Preparatorio-AZ900` | `/Preparatorio-AZ900/` (publicado) |
 
+- **Dependências de ADS:** Laboratório de Inovação I, Laboratório de Inovação II e Web II (PHP) também têm turmas de dependência. Elas usam os mesmos sites das turmas regulares (`lab-inovacao-1`, `lab-inovacao-2` e `prog-web-php`); no portal, aparecem num grupo próprio, "Dependências de ADS", com a etiqueta "dependência".
 - Os links do portal para as disciplinas usam caminhos absolutos (`/prog-web-js/`).
 - O repositório `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA` (sem `.github.io`) é outra coisa: é o README da página de perfil do GitHub, não um site.
 - **Não renomeie repositórios:** o nome faz parte dos links divulgados aos alunos.
@@ -209,7 +210,7 @@ Humor inteligente, carinhoso e direto; de preferência narrativo, contado em pri
 2. Sobre (foto 4:5 e texto numa janela do macOS, com o coração)
 3. Formação (histórico de commits: Telecom → ADS/UCB → 5 especializações → certificações → graduações em andamento)
 4. Skills (grade bento, com IoT e o chip no card grande)
-5. Cursos e turmas (cards de repositório; preparatórios primeiro; disciplinas agrupadas por curso: ADS, SI, GTI)
+5. Cursos e turmas (cards de repositório; preparatórios primeiro; disciplinas agrupadas por curso: ADS, dependências de ADS, SI, GTI)
 6. Palestras (slide da apresentação numa janela)
 7. Neurodiversidade (texto e janela "Acessibilidade — este site")
 8. Arte com sucata eletrônica (galeria)
