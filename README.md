@@ -39,6 +39,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 | Laboratório de Inovação IV | `lab-inovacao-4` | `/lab-inovacao-4/` (publicado) |
 | Laboratório de Inovação II | `lab-inovacao-2` | `/lab-inovacao-2/` (publicado) |
 | Laboratório de Inovação III | `lab-inovacao-3` | `/lab-inovacao-3/` (publicado) |
+| Laboratório de Inovação I | `lab-inovacao-1` | `/lab-inovacao-1/` (publicado) |
 | Lógica de Programação com Python | `Python-Logica` | `/Python-Logica/` (publicado) |
 | Segurança em Nuvem | `seguranca-nuvem` | `/seguranca-nuvem/` (publicado) |
 | Administração de Recursos Computacionais | `adm-recursos` | `/adm-recursos/` (publicado) |
