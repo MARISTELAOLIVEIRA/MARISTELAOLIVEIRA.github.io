@@ -47,7 +47,7 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA.gith
 | Preparatório CCNA | `Preparatorio-CCNAV7` | `/Preparatorio-CCNAV7/` (publicado) |
 | Preparatório AZ-900 | `Preparatorio-AZ900` | `/Preparatorio-AZ900/` (publicado) |
 
-- **Dependências de ADS:** Laboratório de Inovação I, Laboratório de Inovação II e Web II (PHP) também têm turmas de dependência. Elas usam os mesmos sites das turmas regulares (`lab-inovacao-1`, `lab-inovacao-2` e `prog-web-php`); no portal, aparecem num grupo próprio, "Dependências de ADS", com a etiqueta "dependência".
+- **Dependências de ADS:** Laboratório de Inovação I, Laboratório de Inovação III e Web II (PHP) também têm turmas de dependência (oferta avulsa, 2/2026). Elas usam os mesmos sites das turmas regulares (`lab-inovacao-1`, `lab-inovacao-3` e `prog-web-php`); no portal, aparecem num grupo próprio, "Dependências de ADS", com a etiqueta "dependência".
 - Os links do portal para as disciplinas usam caminhos absolutos (`/prog-web-js/`).
 - O repositório `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA` (sem `.github.io`) é outra coisa: é o README da página de perfil do GitHub, não um site.
 - **Não renomeie repositórios:** o nome faz parte dos links divulgados aos alunos.
