@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">Maristela, ou só Stela · Professora de TI · Senac DF</title>
+  <desc id="descricao">Banner no visual de placa de circuito do portal: o nome Maristela, as teclas D I Y e um chip STELA no centro de trilhas douradas que levam aos sites dos cursos: CCNA, AWS, AZ-900, JS, PHP, Python, Labs, Nuvem e ARC.</desc>
+
+  <defs>
+    <!-- Brilhos difusos: dourado à esquerda, menta à direita (as cores do estilo.css) -->
+    <radialGradient id="brilhoOuro" cx="10%" cy="15%" r="65%">
+      <stop offset="0" stop-color="#d6b25e" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#d6b25e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="brilhoMenta" cx="78%" cy="55%" r="45%">
+      <stop offset="0" stop-color="#9fd0b7" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#9fd0b7" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Trilhas de placa bem apagadas no fundo -->
+    <pattern id="placa" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M0 40 H28 L38 30 V0 M80 56 H54 L46 64 V80" fill="none" stroke="#d6b25e" stroke-opacity=".07" stroke-width="2"/>
+      <circle cx="38" cy="30" r="3.5" fill="none" stroke="#d6b25e" stroke-opacity=".12" stroke-width="1.5"/>
+      <circle cx="46" cy="64" r="3.5" fill="none" stroke="#d6b25e" stroke-opacity=".12" stroke-width="1.5"/>
+    </pattern>
+    <filter id="neon" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="borrado"/>
+      <feMerge><feMergeNode in="borrado"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cantos"><rect width="1200" height="360" rx="18"/></clipPath>
+    <style>
+      .rotulo { font: 600 15px Consolas, "Courier New", monospace; fill: #f2efe6; }
+      .trilha { fill: none; stroke: #d6b25e; stroke-width: 2; stroke-opacity: .65; }
+      .pad    { fill: #0a0f0d; stroke: #ecc874; stroke-width: 2; }
+      .pulso  { fill: none; stroke: #39ff9e; stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 26 400; animation: corre 3.2s linear infinite; }
+      @keyframes corre { from { stroke-dashoffset: 26; } to { stroke-dashoffset: -400; } }
+      @media (prefers-reduced-motion: reduce) { .pulso { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#cantos)">
+    <!-- Fundo -->
+    <rect width="1200" height="360" fill="#0a0f0d"/>
+    <rect width="1200" height="360" fill="url(#placa)"/>
+    <rect width="1200" height="360" fill="url(#brilhoOuro)"/>
+    <rect width="1200" height="360" fill="url(#brilhoMenta)"/>
+
+    <!-- Nome e lema -->
+    <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+      <text x="62" y="72" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#d6b25e" letter-spacing="2">● U1 · NÚCLEO DA PLACA</text>
+      <text x="58" y="160" font-size="88" font-weight="800" fill="#f2efe6">Maristela</text>
+      <text x="62" y="202" font-size="28" fill="#ecc874">ou só Stela. Professora de TI.</text>
+      <text x="62" y="244" font-size="20" fill="#a3b0a8">Ligo hardware, software e gente. O resto é trilha.</text>
+    </g>
+
+    <!-- Teclas D I Y (tatuadas nos dedos) -->
+    <g font-family="Consolas, 'Courier New', monospace" font-size="22" font-weight="700" text-anchor="middle" fill="#f2efe6">
+      <rect x="62"  y="270" width="44" height="44" rx="9" fill="#121a16" stroke="#9fd0b7" stroke-opacity=".5" stroke-width="2"/>
+      <rect x="116" y="270" width="44" height="44" rx="9" fill="#121a16" stroke="#9fd0b7" stroke-opacity=".5" stroke-width="2"/>
+      <rect x="170" y="270" width="44" height="44" rx="9" fill="#121a16" stroke="#9fd0b7" stroke-opacity=".5" stroke-width="2"/>
+      <text x="84"  y="300">D</text>
+      <text x="138" y="300">I</text>
+      <text x="192" y="300">Y</text>
+    </g>
+    <text x="236" y="299" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#75837b">feito com ♥ e sucata eletrônica</text>
+
+    <!-- Trilhas do chip até os sites (desenhadas antes do chip, para ficarem por baixo) -->
+    <g>
+      <path class="trilha" d="M855 130 V100 L815 60 H790"/>
+      <path class="trilha" d="M900 130 V64"/>
+      <path class="trilha" d="M945 130 V100 L985 60 H1010"/>
+      <path class="trilha" d="M985 154 H1040 L1070 124 H1090"/>
+      <path class="trilha" d="M985 206 H1040 L1070 236 H1090"/>
+      <path class="trilha" d="M855 230 V260 L815 300 H790"/>
+      <path class="trilha" d="M900 230 V296"/>
+      <path class="trilha" d="M945 230 V260 L985 300 H1010"/>
+      <path class="trilha" d="M815 180 H738"/>
+    </g>
+    <!-- pulsos de luz verde neon correndo nas trilhas -->
+    <g filter="url(#neon)">
+      <path class="pulso" d="M855 130 V100 L815 60 H790"/>
+      <path class="pulso" style="animation-delay:-1.1s" d="M985 206 H1040 L1070 236 H1090"/>
+      <path class="pulso" style="animation-delay:-2.2s" d="M900 230 V296"/>
+      <path class="pulso" style="animation-delay:-.6s" d="M815 180 H738"/>
+    </g>
+    <!-- pads -->
+    <g>
+      <circle class="pad" cx="790" cy="60" r="6"/>
+      <circle class="pad" cx="900" cy="64" r="6"/>
+      <circle class="pad" cx="1010" cy="60" r="6"/>
+      <circle class="pad" cx="1090" cy="124" r="6"/>
+      <circle class="pad" cx="1090" cy="236" r="6"/>
+      <circle class="pad" cx="790" cy="300" r="6"/>
+      <circle class="pad" cx="900" cy="296" r="6"/>
+      <circle class="pad" cx="1010" cy="300" r="6"/>
+      <circle class="pad" cx="738" cy="180" r="6"/>
+    </g>
+    <!-- rótulos dos sites -->
+    <g class="rotulo">
+      <text x="776" y="65" text-anchor="end">CCNA</text>
+      <text x="900" y="46" text-anchor="middle">AWS</text>
+      <text x="1024" y="65">AZ-900</text>
+      <text x="1104" y="129">JS</text>
+      <text x="1104" y="241">PHP</text>
+      <text x="776" y="305" text-anchor="end">Python</text>
+      <text x="900" y="324" text-anchor="middle">Labs</text>
+      <text x="1024" y="305">Nuvem</text>
+      <text x="724" y="185" text-anchor="end">ARC</text>
+    </g>
+
+    <!-- O chip central -->
+    <g>
+      <!-- pernas do chip -->
+      <g fill="#a3b0a8">
+        <rect x="829" y="122" width="8" height="10"/><rect x="851" y="122" width="8" height="10"/><rect x="874" y="122" width="8" height="10"/><rect x="896" y="122" width="8" height="10"/><rect x="918" y="122" width="8" height="10"/><rect x="941" y="122" width="8" height="10"/><rect x="963" y="122" width="8" height="10"/>
+        <rect x="829" y="228" width="8" height="10"/><rect x="851" y="228" width="8" height="10"/><rect x="874" y="228" width="8" height="10"/><rect x="896" y="228" width="8" height="10"/><rect x="918" y="228" width="8" height="10"/><rect x="941" y="228" width="8" height="10"/><rect x="963" y="228" width="8" height="10"/>
+        <rect x="807" y="150" width="10" height="8"/><rect x="807" y="176" width="10" height="8"/><rect x="807" y="202" width="10" height="8"/>
+        <rect x="983" y="150" width="10" height="8"/><rect x="983" y="176" width="10" height="8"/><rect x="983" y="202" width="10" height="8"/>
+      </g>
+      <rect x="815" y="130" width="170" height="100" rx="10" fill="#050807" stroke="#d6b25e" stroke-width="2"/>
+      <circle cx="834" cy="149" r="5" fill="#18221d"/>
+      <text x="900" y="186" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="30" font-weight="700" fill="#ecc874" letter-spacing="4">STELA</text>
+      <text x="900" y="212" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#9fd0b7">porta de entrada</text>
+    </g>
+  </g>
+</svg>
