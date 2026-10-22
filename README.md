@@ -170,8 +170,7 @@ assets/
   img/                imagens em WebP (estrela, coração, palestra, logo da faculdade), ícones e o banner deste README
   img/tec/            logos das tecnologias em SVG (Devicon, licença MIT; Cisco, XAMPP e Espressif do Simple Icons, CC0)
 README.md             este arquivo
-CLAUDE.md             instruções para o Claude Code (fica só no computador, não vai para o GitHub)
-.gitignore            o que o git ignora: .DS_Store, CLAUDE.md, .claude/
+.gitignore            o que o git ignora (arquivos do Mac e do editor, notas locais)
 .nojekyll             vazio; impede o GitHub de transformar .md em página do site
 ```
 

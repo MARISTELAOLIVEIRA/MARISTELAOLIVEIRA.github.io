@@ -1,6 +1,3 @@
 # arquivos do Mac
 .DS_Store
 
-# instruções e configurações locais do Claude Code (ficam só no computador)
-CLAUDE.md
-.claude/
