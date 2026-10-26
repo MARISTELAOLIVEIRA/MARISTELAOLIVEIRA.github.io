@@ -84,7 +84,7 @@ Todos ficam no mesmo endereço, cada um na sua pasta. Os links abaixo são os me
 | 🧪 Laboratório de Inovação II | Projetos | [abrir](https://maristelaoliveira.github.io/lab-inovacao-2/) |
 | 🧪 Laboratório de Inovação I | Portfólio de carreira e ação social. | [abrir](https://maristelaoliveira.github.io/lab-inovacao-1/) |
 
-**Dependências de ADS** (usam os mesmos sites das turmas regulares): [Laboratório de Inovação I](https://maristelaoliveira.github.io/lab-inovacao-1/), [Laboratório de Inovação III](https://maristelaoliveira.github.io/lab-inovacao-3/) e [Web II: PHP](https://maristelaoliveira.github.io/prog-web-php/).
+**Dependências de ADS** (usam os mesmos sites das turmas regulares): [Laboratório de Inovação I](https://maristelaoliveira.github.io/lab-inovacao-1/), [Laboratório de Inovação III](https://maristelaoliveira.github.io/lab-inovacao-3/), [Web II: PHP](https://maristelaoliveira.github.io/prog-web-php/) e [Fundamentos de Computação em Nuvem](https://maristelaoliveira.github.io/fundamentos-nuvem/).
 
 **Segurança da Informação**
 
@@ -189,12 +189,13 @@ Este repositório é o site principal: `MARISTELAOLIVEIRA.github.io`, publicado 
 | Laboratório de Inovação I | `lab-inovacao-1` | `/lab-inovacao-1/` |
 | Lógica de Programação com Python | `Python-Logica` | `/Python-Logica/` |
 | Segurança em Nuvem | `seguranca-nuvem` | `/seguranca-nuvem/` |
+| Fundamentos de Computação em Nuvem | `fundamentos-nuvem` | `/fundamentos-nuvem/` |
 | Administração de Recursos Computacionais | `adm-recursos` | `/adm-recursos/` |
 | Preparatório AWS Cloud Foundations | `Preparatorio-AWS` | `/Preparatorio-AWS/` |
 | Preparatório CCNA | `Preparatorio-CCNAV7` | `/Preparatorio-CCNAV7/` |
 | Preparatório AZ-900 | `Preparatorio-AZ900` | `/Preparatorio-AZ900/` |
 
-- **Dependências de ADS:** Laboratório de Inovação I, Laboratório de Inovação III e Web II (PHP) também têm turmas de dependência (oferta avulsa, 2/2026). Elas usam os mesmos sites das turmas regulares; no portal, aparecem num grupo próprio, "Dependências de ADS", com a etiqueta "dependência".
+- **Dependências de ADS:** Laboratório de Inovação I, Laboratório de Inovação III e Web II (PHP) também têm turmas de dependência (oferta avulsa, 2/2026). Elas usam os mesmos sites das turmas regulares (Fundamentos de Computação em Nuvem, em 2/2026, só tem a turma de dependência); no portal, aparecem num grupo próprio, "Dependências de ADS", com a etiqueta "dependência".
 - Os links do portal para as disciplinas usam caminhos absolutos (`/prog-web-js/`).
 - O repositório `MARISTELAOLIVEIRA/MARISTELAOLIVEIRA` (sem `.github.io`) é outra coisa: é o README da página de perfil do GitHub, não um site.
 - **Não renomeie repositórios:** o nome faz parte dos links divulgados aos alunos.
