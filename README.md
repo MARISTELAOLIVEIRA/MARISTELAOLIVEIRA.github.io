@@ -357,7 +357,7 @@ Conteúdo:
 
 Estrutura:
 
-- [ ] Modelo de disciplina: mais animações (a Stela achou a página da Web II parada demais); já tem o logo flutuando na abertura
+- [ ] Modelo de disciplina: mais animações (a Stela achou a página da Web II parada demais); já tem o logo flutuando na abertura. Começou pelo ARC (`interativos.js`, 05/11/2026): simuladores com analogias nas aulas 5 (hotel), 6 (crachás e salas), 7 (chaveiro), 10 (carta) e 11 (Correios); faltam as aulas 2 a 4 e 12 a 15
 
 </details>
 
